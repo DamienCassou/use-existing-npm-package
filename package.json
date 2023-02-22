@@ -1,0 +1,14 @@
+{
+  "name": "@foretagsplatsen/use-existing-npm-package",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Företagsplatsen",
+  "dependencies": {
+    "@foretagsplatsen/build-npm-package-with-github-actions": "^1.0.0"
+  }
+}
