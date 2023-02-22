@@ -15,5 +15,8 @@ jobs:
       with:
         node-version: lts/*
     - run: |
+        npm config set //npm.pkg.github.com/:_authToken $READ_PACKAGES
         npm install
         node index.js | grep "Hello you!"
+      env:
+        READ_PACKAGES: ${{secrets.READ_PACKAGES}}
